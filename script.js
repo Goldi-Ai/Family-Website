@@ -60,7 +60,7 @@ document.getElementById("my-profile").innerHTML =
 
 // दादा-दादी
 document.getElementById("grandparents").innerHTML =
-  profileCard("श्री शभु प्रसाद", "दादा जी — परिवार का अनमोल मार्गदर्शक।", "images/dadaji.png", "profiles/dadaji-profile.html") +
+  profileCard("श्री शंभू प्रसाद", "दादा जी — परिवार का अनमोल मार्गदर्शक।", "images/dadaji.png", "profiles/dadaji-profile.html") +
   profileCard("श्रीमती लालती देवी", "दादी — ममता और संस्कार की पहचान।", "images/dadi.png", "profiles/dadi-profile.html"); 
 
 // पापा-मम्मी
@@ -87,7 +87,7 @@ document.getElementById("uncle1").innerHTML =
 document.getElementById("uncle2").innerHTML =
   profileCard("श्री राजन कुशवाहा", "समर्पित और स्नेही।", "images/Rajan kushwaha.png", "profiles/rajan-profile.html") +
   profileCard("श्रीमती निक्की देवी", "नम्र और प्यारभरी चाची।", "images/choti anty.png", "profiles/nikki-profile.html") +
-  profileCard("छोटी बबनी", "प्यारी नन्ही बेटी।", "images/choti babni.png", "profiles/choti-babni-profile.html");
+  profileCard("आश्विका", "प्यारी नन्ही बेटी।", "images/Aashvika.png", "profiles/Aashvika.html");
 
 // मौसा-मौसी और भाई
 document.getElementById("mausa").innerHTML =
@@ -96,7 +96,9 @@ document.getElementById("mausa").innerHTML =
   profileCard("दीपक कुशवाहा", "प्रेरणादायी बड़े भैया।", "images/Deepak kushwaha.png", "profiles/deepak-profile.html") +
   profileCard("आरती कुमारी", "घर की रौनक — भाभी जी।", "images/Aarti.png", "profiles/aarti-profile.html") +
   profileCard("प्रकाश कुमार कुशवाहा", "शिक्षक और मुस्कान देने वाले।", "images/Prakash Kumar Kushwaha.png", "profiles/prakash-profile.html") +
-  profileCard("अविनाश कुमार", "छोटा पर प्यारा।", "images/Abhinash Kumar Kushwaha.png", "profiles/avinash-profile.html");
+  profileCard("अविनाश कुमार", "छोटा पर प्यारा।", "images/Abhinash Kumar Kushwaha.png", "profiles/avinash-profile.html") +
+  profileCard("खुशबू सिंह", "सरल और रचनात्मक।", "images/Khushbu Singh.png", "profiles/khushbu-profile.html");
+  
 
 // फूफा-फूआ — पहला परिवार
 document.getElementById("fufa1").innerHTML =

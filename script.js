@@ -100,7 +100,7 @@ document.getElementById("mausa").innerHTML =
 
 // फूफा-फूआ — पहला परिवार
 document.getElementById("fufa1").innerHTML =
-  profileCard("श्री ओम प्रकाश सिंह", "सहयोगी और आदरणीय फूफा।", "images/Om. Prakash singh.png", "profiles/omprakash-profile.html") +
+  profileCard("श्री ओम प्रकाश सिंह", "सहयोगी और आदरणीय फूफा।", "images/Om. Prakash singh.png", "profiles/om-prakash-profile.html") +
   profileCard("श्रीमती गीता देवी", "प्यारी और स्नेहशील फूआ।", "images/Gita Devi.png", "profiles/geeta-profile.html") +
   profileCard("अमन सिंह", "होशियार बेटा।", "images/Aman Singh.png", "profiles/aman-profile.html") +
   profileCard("अर्पीता सिंह", "प्यारी बेटी।", "images/Arpeeta singh.png", "profiles/arpeeta-profile.html");

@@ -1,0 +1,81 @@
+/* Fonts */
+:root{
+  --accent-1: #F59E0B; /* amber-500 */
+  --accent-2: #F97316; /* orange-500 */
+  --bg-soft: #FFF7ED;  /* very light warm */
+}
+
+/* Use imported fonts */
+body {
+  font-family: "Noto Sans Devanagari", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg, #FFFDF8 0%, #FFF7ED 100%);
+  color: #1f2937;
+}
+
+/* Playfair for headings (define a utility-like class) */
+.font-playfair {
+  font-family: "Playfair Display", "Noto Sans Devanagari", serif;
+}
+
+/* Card styles (non-Tailwind extension) */
+.profile-card {
+  transition: transform .28s cubic-bezier(.2,.9,.3,1), box-shadow .28s;
+  transform: translateY(0);
+}
+.profile-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, .18);
+}
+
+/* Dark mode overrides */
+body.dark {
+  background: linear-gradient(180deg, #0f172a 0%, #071024 100%);
+  color: #e6eef8;
+}
+
+/* Card backgrounds for light/dark */
+.profile-bg {
+  background: linear-gradient(135deg, rgba(255,243,199,0.9), rgba(255,236,179,0.9));
+}
+body.dark .profile-bg {
+  background: linear-gradient(135deg, rgba(31,41,55,0.35), rgba(17,24,39,0.45));
+}
+
+/* Image border */
+.profile-card img {
+  transition: transform .28s ease, box-shadow .28s ease;
+}
+.profile-card img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(15,23,42,0.18);
+}
+
+/* Responsive tweaks */
+@media (max-width:640px){
+  header h1 { font-size: 1.5rem; }
+  .profile-card { width: 90%; max-width: 18rem; }
+}
+
+/* Small utility to keep consistent rounded look */
+.rounded-3xl { border-radius: 1.5rem; }
+
+/* Card widths */
+.profile-card { width: 16rem; }
+
+/* ScrollReveal anchor spacing */
+.reveal { will-change: transform, opacity; }
+
+/* Make links (social icons) gently animated */
+.profile-card .ri-facebook-circle-fill,
+.profile-card .ri-instagram-fill,
+.profile-card .ri-linkedin-box-fill {
+  transition: transform .18s ease, opacity .18s;
+}
+.profile-card a:hover .ri-facebook-circle-fill,
+.profile-card a:hover .ri-instagram-fill,
+.profile-card a:hover .ri-linkedin-box-fill {
+  transform: translateY(-3px);
+}
+
+/* Footer text small tweak */
+footer p { font-weight: 600; letter-spacing: 0.2px; }
